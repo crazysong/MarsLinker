@@ -1,7 +1,13 @@
-# Privacy Policy for MarsLinker (MarsConnect & MarsPub)
+# Privacy Policy for MarsLinker (MarsConnect & MarsHub & MarsPub)
+---
+
+> ** Core Commitment:**
+> MarsLinker 承诺极力保护用户数据隐私。我们**绝不出售**用户的任何数据，不将数据用于个性化广告，且仅收集实现产品核心功能所必需的信息。数据只在用户需要的情况下才会用到，其余情况均未被使用。  
+> *MarsLinker (comprising MarsConnect & MarsHub & MarsPub) is committed to protecting user privacy. We **NEVER sell** user data, do not use data for personalized advertising, and only collect information strictly necessary for core extension functionality.The data is only used when the user needs it; otherwise, it is not utilized.*
+---
 
 ### 1. Introduction
-MarsLinker (comprising MarsConnect and MarsPub) is a productivity tool designed for professional data integration and link management. We prioritize user transparency and data minimality.
+MarsLinker (comprising MarsConnect & MarsHub & MarsPub) is a productivity tool designed for professional data integration and link management. We prioritize user transparency and data minimality.
 
 ### 2. Detailed Disclosure of Permissions & Data Collection
 In accordance with the principle of data minimization, we only request permissions necessary for core features. Here is how we use your data:
@@ -15,15 +21,18 @@ Used strictly for managing session states between the extension and the user's a
   ### 2.3 scripting & storage:
 scripting is used to inject functional components into authorized pages for UI enhancements. storage (including IndexedDB) is used to save user configurations and historical data locally on the device.
 
-### 3. Data Processing & Storage
-No Remote Collection: All data processed via the permissions above remains on your local device. We do not operate any centralized servers to collect your browsing history or cookie data.
-IndexedDB Usage: Large structured datasets (such as link histories or rule maps) are stored using IndexedDB to ensure performance and prevent data loss.
-No Background Tracking: We do not use alarms or background processes to track user behavior or collect telemetry.
+### 3. Data Storage & Security
+We implement industry-standard security measures to safeguard your information:
 
-### 4. Data Sharing & Third Parties
-User-Defined Endpoints Only: Data is shared only with the third-party API providers that the user explicitly configures within the extension’s settings.
+* **In-Transit Encryption:** All data transmitted between the extension and servers is encrypted using standard HTTPS/TLS protocols.
+* **Secure Storage:** Sensitive authentication tokens are stored securely within your local browser sandbox (Chrome Storage) or protected server databases.
 
-Prohibited Sharing: We DO NOT share, sell, or transmit any data obtained via cookies or browsingData permissions to any third-party advertisers, data brokers, or external analytics services.
+### 4. Data Sharing & Non-Sale Commitment
+
+> **Our Explicit Commitments:**
+> * **No Data Selling:** We do not sell, rent, trade, or monetize your personal data under any circumstances.
+> * **No Third-Party Sharing:** We do not share your data with third-party advertisers, data brokers, or marketing agencies.
+> * **Legal Requirements:** We only disclose information if explicitly required by law or a valid legal process.
 
 ### 5. User Controls
 Users can revoke permissions at any time through the Chrome Extension Management page. All locally stored data in chrome.storage and IndexedDB can be wiped instantly via the extension's "Clear All Data" button.
